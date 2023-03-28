@@ -15,7 +15,7 @@ Steps to set up the bot :
 
   Go to the developer portal of discord and sign in : https://discord.com/developers/applications
   Create a new application :
-  ![image](https://user-images.githubusercontent.com/102239127/228204837-9d44f9ea-6433-4394-8dca-2cf1f4e6533e.png)
+  ![image](https://user-images.githubusercontent.com/102239127/228204837-9d44f9ea-6433-4394-8dca-2cf1f4e6533e.png)\n
   Give it a cute name and a pretty picture for profile.
   
   Now go to the Bot section :
