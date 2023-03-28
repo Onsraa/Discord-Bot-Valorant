@@ -1,2 +1,2 @@
-# Discord-Bot-Valorant
+# Discord Bot Valorant
 
