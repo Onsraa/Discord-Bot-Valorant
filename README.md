@@ -1,3 +1,3 @@
 # Discord Bot Valorant
 
-In progress..é
+In progress..
