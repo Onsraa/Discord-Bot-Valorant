@@ -1,3 +1,3 @@
-# Discord Bot Valorant
+# Discord Bot Valorant 🧠
 
 In progress..
