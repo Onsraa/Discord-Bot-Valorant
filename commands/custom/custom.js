@@ -1,6 +1,5 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder, MessageEmbed, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const { maps } = require('./maps.json');
-const { MessageEmbed, MessageActionRow, MessageButton } = require('discord.js');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -12,7 +11,7 @@ module.exports = {
             .setTitle(map.name)
             .setImage(map.image);
 
-        const row = new MessageActionRow().addComponents(
+        const row = new ActionRowBuilder().addComponents(
             createRerollButton()
         );
 
@@ -53,16 +52,16 @@ module.exports = {
 };
 
 function createRerollButton() {
-    return new MessageButton()
+    return new ButtonBuilder()
         .setCustomId('reroll')
         .setLabel('Reroll')
-        .setStyle('PRIMARY');
+        .setStyle(ButtonStyle.Primary);
 }
 
 function createDisabledRerollButton() {
-    return new MessageButton()
+    return new ButtonBuilder()
         .setCustomId('reroll')
         .setLabel('Reroll')
-        .setStyle('PRIMARY')
+        .setStyle(ButtonStyle.Primary)
         .setDisabled(true);
 }
