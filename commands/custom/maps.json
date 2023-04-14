@@ -2,39 +2,39 @@
   "maps": [
     {
       "name": "Lotus",
-      "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0bb2058c88892462/63b8a805ade3a64c67746408/Lotus_Screenshot_1.jpg?auto=webp&width=915"
+      "image": "https://i.imgur.com/NJb7ZYk.jpg"
     },
     {
       "name": "Pearl",
-      "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0c118364c6320f60/62a289d3891af05acaff06b1/Pearl_Gallery_01.jpg?auto=webp&width=915"
+      "image": "https://i.imgur.com/kPjDiQC.jpg"
     },
     {
       "name": "Fracture",
-      "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf4485163c8c5873c/6131b23e9db95e7ff74b6393/Valorant_FRACTURE_Minimap_Alpha_web.png"
+      "image": "https://static.wikia.nocookie.net/valorant/images/f/fc/Loading_Screen_Fracture.png/revision/latest?cb=20210908143656"
     },
     {
       "name": "Icebox",
-      "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltde02911a015d7ef9/5f80d2851f5f6d4173b4e49d/Icebox_transparentbg_for_Web.png"
+      "image": "https://static.wikia.nocookie.net/valorant/images/1/13/Loading_Screen_Icebox.png/revision/latest?cb=20201015084446"
     },
     {
       "name": "Bind",
-      "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8538036a309525ae/5ebc470bfd85ad7411ce6b50/bind-featured.png"
+      "image": "https://static.wikia.nocookie.net/valorant/images/2/23/Loading_Screen_Bind.png/revision/latest?cb=20200620202316"
     },
     {
       "name": "Haven",
-      "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8afb5b8145f5e9b2/5ebc46f7b8c49976b71c0bc5/haven-featured.png"
+      "image": "https://i.imgur.com/Ew1Urhc.jpg"
     },
     {
       "name": "Split",
-      "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd188c023f88f7d91/5ebc46db20f7727335261fcd/split-featured.png"
+      "image": "https://i.imgur.com/E1IiBhP.jpg"
     },
     {
       "name": "Ascent",
-      "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta9b912e1a1b59aa4/5ebc471cfa550001f72bcb13/ascent-featured.png"
+      "image": "https://i.imgur.com/N89ucna.jpg"
     },
     {
       "name": "Breeze",
-      "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb03d2e4867f2e324/607f995892f0063e5c0711bd/breeze-featured_v1.png"
+      "image": "https://i.imgur.com/oaz03jC.png"
     }
   ]
 }
