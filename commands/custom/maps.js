@@ -9,15 +9,28 @@ module.exports = {
 	async execute(interaction) {
         if (!interaction.isChatInputCommand()) return;
 
-        
+        let tmp_maps = maps;
+
         const rerollButton = createRerollButton();
         const validateButton = validateMapButton();
         const row = new ActionRowBuilder()
-            .addComponents(rerollButton, validateButton)
+            .addComponents(validateButton, rerollButton)
 
         const mapEmbed = createMapEmbed();
 
-		await interaction.reply({embeds: [mapEmbed], components: [row]});
+		const response = await interaction.reply({embeds: [mapEmbed], components: [row]});
+
+        const filter = i => i.user.id === interaction.user.id;
+        try {
+            const confirmation = await response.awaitMessageComponent({ filter, time: 10000 });
+            if(confirmation.customId === 'validate'){
+                await i.update({content : 'It\'s validate !', components: []});
+            }else if (confirmation.customId === 'reroll'){
+                await i.update({content : 'Reroll !', components: []});
+            }
+        } catch (e) {
+            await response.editReply({ content: 'Confirmation not received within 10 seconds, cancelling', components: [] });
+        }
 	},
 };
 
@@ -34,16 +47,16 @@ function createMapEmbed(){
 function createRerollButton() {
     return new ButtonBuilder()
             .setCustomId('reroll')
-            .setLabel('Reroll')
-            .setStyle(ButtonStyle.Secondary);
+            .setStyle(ButtonStyle.Danger)
+            .setEmoji('✖️')
     
 }
 
 function validateMapButton(){
     return new ButtonBuilder()
             .setCustomId('validate')
-            .setLabel('Validate')
-            .setStyle(ButtonStyle.Success);
+            .setStyle(ButtonStyle.Success)
+            .setEmoji('✔️')
 }
 
 /*
